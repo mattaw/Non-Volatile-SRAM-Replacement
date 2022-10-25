@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STK12C68
+D 64 Kbit (8 K x 8) AutoStore nvSRAM
+F https://www.infineon.com/dgdl/Infineon-STK12C68_64_Kbit_(8_K_x_8)_AutoStore_nvSRAM_Datasheet-AdditionalTechnicalInformation-v09_00-EN.pdf
+$ENDCMP
+#
+#End Doc Library

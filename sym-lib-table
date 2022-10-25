@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "Memory_NVRAM_Cypress")(type "KiCad")(uri "${KIPRJMOD}/libs/Memory_NVRAM_Cypress.kicad_sym")(options "")(descr ""))
+  (lib (name "Memory_RAM_Toshiba")(type "KiCad")(uri "${KIPRJMOD}/libs/Memory_RAM_Toshiba.kicad_sym")(options "")(descr ""))
+)
