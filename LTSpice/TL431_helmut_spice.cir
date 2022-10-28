@@ -1,0 +1,38 @@
+* Model developed by Helmut Sennewald 6/27/2004 Version 1.1
+* This TL431A model has been developed from the schematic in the
+* datasheet.  It agrees with most of the test circuits and covers
+* tempco, capacitive load stability, ac gain, reverse diode, noise,
+* transient, Zout.
+*
+.subckt TL431A A K R ; Anode Kathode Reference
+Q1 3 2 1 0 NPN1 2.7
+Q2 2 2 A 0 NPN1 1
+R1 1 A 800 TC1=350u ; this TC1 does the trick for the total tempco
+R2 4 2 2k4
+R3 4 3 7k2
+R4 5 4 3k28
+Q3 6 3 A 0 NPN1 1
+R5 7 6 4k
+Q4 10 5 7 0 NPN1 1
+Q5 K R 5 0 NPN1 1
+R6 2 12 1k
+Q6 11 12 A 0 NPN1 0.2
+Q9 K 11 13 0 NPN1 2
+Q10 K 14 A 0 NPN1 10
+R10 14 A 10k
+R9 13 14 150
+R7 K 8 800
+Q7 10 10 8 0 PNP1 1
+Q8 11 10 9 0 PNP1 1
+D2 A K D1
+D1 A 11 D3
+R8 K 9 800
+C1 K 11 20p
+C2 6 3 20p
+D3 11 R D2
+.model NPN1 NPN(Is=8f BF=100 VAF=100 TF=0n5 IKF=10m KF=0f1 AF=1 + Rb=50 Re=10)
+.model PNP1 PNP(Is=10f BF=50 VAF=50 TF=10n IKF=2m KF=0f1 AF=1)
+.model D1 D(Is=0p1 Rs=10 Cjo=20p)
+.model D2 D(Is=0p1 Rs=10 Cjo=2p BV=5 IBV=10u)
+.model D3 D(Is=0p1 Rs=10 Cjo=2p)
+.ends TL431A
