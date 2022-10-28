@@ -1834,7 +1834,7 @@
   (symbol (lib_id "Memory_RAM_Toshiba:TC5564APL_Adapter") (at 66.04 67.31 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006342de32)
-    (property "Reference" "U1" (id 0) (at 67.31 44.45 0)
+    (property "Reference" "U10" (id 0) (at 67.31 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TC5564APL_Adapter" (id 1) (at 67.31 46.99 0)
@@ -1879,7 +1879,7 @@
   (symbol (lib_id "Memory_NVRAM_Cypress:STK12C68") (at 154.94 67.31 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000063430085)
-    (property "Reference" "U2" (id 0) (at 156.21 44.45 0)
+    (property "Reference" "U3" (id 0) (at 156.21 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STK12C68" (id 1) (at 156.21 46.99 0)
@@ -1924,7 +1924,7 @@
   (symbol (lib_id "Reference_Voltage:TL431DBZ") (at 62.23 165.1 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000063433874)
-    (property "Reference" "U4" (id 0) (at 60.4774 163.9316 90)
+    (property "Reference" "U1" (id 0) (at 60.4774 163.9316 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TL431DBZ" (id 1) (at 60.4774 166.243 90)
@@ -2039,7 +2039,7 @@
   (symbol (lib_id "74xGxx:74AHC2G00") (at 97.79 73.66 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006348eea5)
-    (property "Reference" "U3" (id 0) (at 97.155 66.8782 0))
+    (property "Reference" "U2" (id 0) (at 97.155 66.8782 0))
     (property "Value" "74AHC2G00" (id 1) (at 97.155 69.1896 0))
     (property "Footprint" "Package_SO:TSSOP-8_3x3mm_P0.65mm" (id 2) (at 97.79 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2060,7 +2060,7 @@
   (symbol (lib_id "74xGxx:74AHC2G00") (at 111.76 76.2 0) (unit 2)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006349091b)
-    (property "Reference" "U3" (id 0) (at 109.22 80.01 0))
+    (property "Reference" "U2" (id 0) (at 109.22 80.01 0))
     (property "Value" "74AHC2G00" (id 1) (at 105.41 82.55 0))
     (property "Footprint" "Package_SO:TSSOP-8_3x3mm_P0.65mm" (id 2) (at 111.76 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2469,20 +2469,20 @@
     (path "/071c3761-d773-432a-bdda-a9002a107f9e"
       (reference "R6") (unit 1) (value "-") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-00006342de32"
-      (reference "U1") (unit 1) (value "TC5564APL_Adapter") (footprint "Package_DIP_Adapter:DIP-28_W15.24mm_Socket_Adapter")
-    )
-    (path "/00000000-0000-0000-0000-000063430085"
-      (reference "U2") (unit 1) (value "STK12C68") (footprint "Package_SO_Cypress:SOIC-28W_8.7x18.4mm_P1.27mm")
+    (path "/00000000-0000-0000-0000-000063433874"
+      (reference "U1") (unit 1) (value "TL431DBZ") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/00000000-0000-0000-0000-00006348eea5"
-      (reference "U3") (unit 1) (value "74AHC2G00") (footprint "Package_SO:TSSOP-8_3x3mm_P0.65mm")
+      (reference "U2") (unit 1) (value "74AHC2G00") (footprint "Package_SO:TSSOP-8_3x3mm_P0.65mm")
     )
     (path "/00000000-0000-0000-0000-00006349091b"
-      (reference "U3") (unit 2) (value "74AHC2G00") (footprint "Package_SO:TSSOP-8_3x3mm_P0.65mm")
+      (reference "U2") (unit 2) (value "74AHC2G00") (footprint "Package_SO:TSSOP-8_3x3mm_P0.65mm")
     )
-    (path "/00000000-0000-0000-0000-000063433874"
-      (reference "U4") (unit 1) (value "TL431DBZ") (footprint "Package_TO_SOT_SMD:SOT-23")
+    (path "/00000000-0000-0000-0000-000063430085"
+      (reference "U3") (unit 1) (value "STK12C68") (footprint "Package_SO_Cypress:SOIC-28W_8.7x18.4mm_P1.27mm")
+    )
+    (path "/00000000-0000-0000-0000-00006342de32"
+      (reference "U10") (unit 1) (value "TC5564APL_Adapter") (footprint "Package_DIP_Adapter:DIP-28_W15.24mm_Socket_Adapter")
     )
   )
 )
