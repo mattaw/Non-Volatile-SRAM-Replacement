@@ -28,3 +28,7 @@ fp-info-cache
 # Backups
 HP3457A_NVSRAM_MOD-backups/*
 
+# LTSpice
+*.raw
+*.log
+
