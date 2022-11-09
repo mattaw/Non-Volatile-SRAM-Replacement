@@ -380,7 +380,6 @@
         "microvia_drill": 0.3302,
         "name": "Power",
         "nets": [
-          "+5V",
           "/VCAP",
           "GND"
         ],
