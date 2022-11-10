@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name Package_SO_Cypress)(type KiCad)(uri ${KIPRJMOD}/libs/footprints/Package_SO_Cypress.pretty)(options "")(descr ""))
-  (lib (name Package_DIP_Adapter)(type KiCad)(uri ${KIPRJMOD}/libs/footprints/Package_DIP_Adapter.pretty)(options "")(descr ""))
-)
