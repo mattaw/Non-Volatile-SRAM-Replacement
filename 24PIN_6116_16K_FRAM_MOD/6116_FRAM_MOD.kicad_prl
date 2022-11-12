@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 32,
+    "active_layer": 37,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [],
@@ -66,7 +66,7 @@
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "HP3457A_NVSRAM_MOD.kicad_prl",
+    "filename": "6116_FRAM_MOD.kicad_prl",
     "version": 3
   },
   "project": {

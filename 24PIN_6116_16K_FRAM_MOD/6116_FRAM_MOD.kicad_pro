@@ -347,7 +347,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "XX62_NVSRAM_MOD.kicad_pro",
+    "filename": "6116_FRAM_MOD.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -380,8 +380,8 @@
         "microvia_drill": 0.3302,
         "name": "Power",
         "nets": [
-          "/VCAP",
-          "GND"
+          "GND",
+          "VCC"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
