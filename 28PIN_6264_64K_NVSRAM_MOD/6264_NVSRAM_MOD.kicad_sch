@@ -4,6 +4,13 @@
 
   (paper "USLetter")
 
+  (title_block
+    (title "6264_NVSRAM_MOD")
+    (date "2022-11-12")
+    (rev "V1")
+    (company "Copyright Dr. Matthew Swabey")
+  )
+
   (lib_symbols
     (symbol "74xGxx:74AHC2G00" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -2.54 3.81 0)
