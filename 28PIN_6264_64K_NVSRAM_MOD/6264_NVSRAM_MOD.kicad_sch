@@ -8,7 +8,7 @@
     (title "6264_NVSRAM_MOD")
     (date "2022-11-12")
     (rev "V1")
-    (company "Copyright Dr. Matthew Swabey")
+    (comment 1 "Copyright Dr. Matthew Swabey")
   )
 
   (lib_symbols
